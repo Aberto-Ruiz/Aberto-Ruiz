@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-print ("solicitando información de Internet")
+print ("Solicitando información de Internet")
 URL= "https://jsonplaceholder.typicode.com/posts"
 i=0
 data = requests.get(URL).json()
